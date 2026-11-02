@@ -18,6 +18,6 @@ Goal: in under a minute, the squad knows where it is, and the environment is pro
    - what the squad publishes and what it reads from the other squad (contract names and pinned versions);
    - the four gates G1 Ready to Spec → G2 Ready to Build → G3 Ready to Release → G4 Released and Observable: a machine gate-check (`npm run gate -- Gx`), then a human gate keeper decides;
    - the hats: Specification Engineer, Context Engineer, Agentic Workflow Orchestrator, Decision Guarantor (+ Evaluation Engineer for a third person). Ask who wears which, do not assign them.
-3. First step (Discover): copy `../context-nexus/templates/business-intent.md` to `../context-nexus/teams/<squad>/intent/business-intent.md` **only if the humans ask**, and suggest they first list what the brief does not say and ask the Head of Receivables.
+3. First step (Discover): copy `../context-nexus/templates/business-intent.md` to `../context-nexus/teams/<squad>/intent/business-intent.md` **only if the humans ask**, and suggest they first list what the brief does not say and ask the Head of Receivables. If the squad has a third person (Evaluation Engineer), give them their own first step: read the reference cases of this slice in `programme/payment-reminders/contracts/reference-cases.md`, explain each in one line, and list the edge cases the cases do not cover.
 
 At this step, write nothing in `intent/` on your own: you draft when a human asks, and a human signs. Keep the answer short.

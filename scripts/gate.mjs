@@ -29,10 +29,15 @@ let staleHint = '';
 const contextOk = () => {
   try { execSync(`node "${resolve(NEXUS, 'tools/context-assemble.mjs')}" --nexus "${NEXUS}" --squad ${SQUAD} --pull --check`, { stdio: 'pipe' }); return true; }
   catch (e) {
-    const out = String(e.stdout ?? '');
-    const pins = [...out.matchAll(/^\s+(BREAKING|UPDATE|TARGET_STALE|MISSING)\s+(\S+)\s+pinned (\S+) → current (\S+)/gm)].map((m) => `${m[2].split('/').pop()} ${m[3]} → ${m[4]}`);
-    const own = [...out.matchAll(/^✗ (\S+) \(v[^,]+, stale\)/gm)].map((m) => `${m[1].split('/').pop()} is stale`);
-    staleHint = [...new Set([...pins, ...own])].join('; ');
+    // Name the squad's file that holds each stale pin: it may be the business intent, not the spec.
+    const hints = []; let holder = '';
+    for (const line of String(e.stdout ?? '').split('\n')) {
+      const h = line.match(/^✗ (\S+) \(v[^,]+, (\w+)\)/);
+      if (h) { holder = h[1].split('/').pop(); if (h[2] === 'stale') hints.push(`${holder} is stale`); continue; }
+      const m = line.match(/^\s+(BREAKING|UPDATE|TARGET_STALE|MISSING)\s+(\S+)\s+pinned (\S+) → current (\S+)/);
+      if (m) hints.push(`${holder ? `in ${holder}, ` : ''}${m[2].split('/').pop()} ${m[3]} → ${m[4]}`);
+    }
+    staleHint = [...new Set(hints)].join('; ');
     return false;
   }
 };
