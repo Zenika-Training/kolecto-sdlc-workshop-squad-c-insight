@@ -1,0 +1,4 @@
+# Core Billing · code owners
+team: core-billing
+contact: core-billing@kolecto.example
+review: required for every change under src/billing/

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "C01",
+    "name": "Atelier Lumen SARL",
+    "type": "B2B",
+    "language": "fr",
+    "optedOut": false,
+    "email": "accounts+c01@example.test"
+  },
+  {
+    "id": "C02",
+    "name": "Cerise & Co Bakery",
+    "type": "B2B",
+    "language": "fr",
+    "optedOut": false,
+    "email": "accounts+c02@example.test"
+  },
+  {
+    "id": "C03",
+    "name": "Northwind Consulting",
+    "type": "B2B",
+    "language": "en",
+    "optedOut": false,
+    "email": "accounts+c03@example.test"
+  },
+  {
+    "id": "C04",
+    "name": "Studio Ardoise",
+    "type": "B2B",
+    "language": "fr",
+    "optedOut": false,
+    "email": "accounts+c04@example.test"
+  },
+  {
+    "id": "C05",
+    "name": "Brightline Logistics",
+    "type": "B2B",
+    "language": "en",
+    "optedOut": false,
+    "email": "accounts+c05@example.test"
+  },
+  {
+    "id": "C06",
+    "name": "Maison Verdier Architectes",
+    "type": "B2B",
+    "language": "fr",
+    "optedOut": false,
+    "email": "accounts+c06@example.test"
+  },
+  {
+    "id": "C07",
+    "name": "Pixel Harbour Ltd",
+    "type": "B2B",
+    "language": "en",
+    "optedOut": false,
+    "email": "accounts+c07@example.test"
+  },
+  {
+    "id": "C08",
+    "name": "Les Jardins de Lise",
+    "type": "B2B",
+    "language": "fr",
+    "optedOut": false,
+    "email": "accounts+c08@example.test"
+  },
+  {
+    "id": "C09",
+    "name": "Optima Plomberie",
+    "type": "B2B",
+    "language": "fr",
+    "optedOut": false,
+    "email": "accounts+c09@example.test"
+  },
+  {
+    "id": "C10",
+    "name": "Helios Data Labs",
+    "type": "B2B",
+    "language": "en",
+    "optedOut": false,
+    "email": "accounts+c10@example.test"
+  },
+  {
+    "id": "C11",
+    "name": "Private customer 11",
+    "type": "B2C",
+    "language": "fr",
+    "optedOut": false,
+    "email": "accounts+c11@example.test"
+  },
+  {
+    "id": "C12",
+    "name": "Quietwater Events",
+    "type": "B2B",
+    "language": "en",
+    "optedOut": true,
+    "email": "accounts+c12@example.test"
+  }
+]

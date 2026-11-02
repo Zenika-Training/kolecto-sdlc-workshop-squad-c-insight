@@ -1,0 +1,10 @@
+.context/
+node_modules/
+.DS_Store
+coverage/
+dist/
+.run/
+graphify-out/
+context-nexus
+.hackathon/guard.log
+.hackathon/ready

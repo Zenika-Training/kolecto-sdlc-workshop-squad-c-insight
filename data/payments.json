@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pay_0001",
+    "invoiceId": "inv_0001",
+    "date": "2026-09-20",
+    "amountMinor": 40000
+  },
+  {
+    "id": "pay_0002",
+    "invoiceId": "inv_0003",
+    "date": "2026-10-20",
+    "amountMinor": 8900
+  },
+  {
+    "id": "pay_0003",
+    "invoiceId": "inv_0005",
+    "date": "2026-10-12",
+    "amountMinor": 100000
+  },
+  {
+    "id": "pay_0004",
+    "invoiceId": "inv_0009",
+    "date": "2026-10-01",
+    "amountMinor": 200000
+  },
+  {
+    "id": "pay_0005",
+    "invoiceId": "inv_0011",
+    "date": "2026-11-05",
+    "amountMinor": 186000
+  },
+  {
+    "id": "pay_0006",
+    "invoiceId": "inv_0013",
+    "date": "2026-11-10",
+    "amountMinor": 31000
+  },
+  {
+    "id": "pay_0007",
+    "invoiceId": "inv_0019",
+    "date": "2026-10-30",
+    "amountMinor": 150000
+  },
+  {
+    "id": "pay_0008",
+    "invoiceId": "inv_0026",
+    "date": "2026-10-15",
+    "amountMinor": 5000
+  },
+  {
+    "id": "pay_0009",
+    "invoiceId": "inv_0027",
+    "date": "2026-11-19",
+    "amountMinor": 20000
+  },
+  {
+    "id": "pay_0010",
+    "invoiceId": "inv_0029",
+    "date": "2026-11-03",
+    "amountMinor": 58000
+  },
+  {
+    "id": "pay_0011",
+    "invoiceId": "inv_0032",
+    "date": "2026-11-25",
+    "amountMinor": 64000
+  },
+  {
+    "id": "pay_0012",
+    "invoiceId": "inv_0035",
+    "date": "2026-09-30",
+    "amountMinor": 45000
+  },
+  {
+    "id": "pay_0013",
+    "invoiceId": "inv_0038",
+    "date": "2026-10-10",
+    "amountMinor": 100000
+  },
+  {
+    "id": "pay_0014",
+    "invoiceId": "inv_0038",
+    "date": "2026-11-02",
+    "amountMinor": 60000
+  }
+]

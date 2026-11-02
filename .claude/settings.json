@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(npm test)",
+      "Bash(npm test *)",
+      "Bash(npm run test:reference)",
+      "Bash(npm run test:coverage)",
+      "Bash(npm run lint)",
+      "Bash(npm run typecheck)",
+      "Bash(npm run scan)",
+      "Bash(npm run context)",
+      "Bash(npm run context *)",
+      "Bash(npm run gate *)",
+      "Bash(npm run publish *)",
+      "Bash(npm run contract-diff)",
+      "Bash(npm run observe)",
+      "Bash(npm run build)",
+      "Bash(npm run deploy)",
+      "Bash(node scripts/nexus.mjs *)",
+      "Bash(git -C ../context-nexus pull)",
+      "Bash(git -C ../context-nexus pull *)",
+      "Bash(git -C ../context-nexus status *)",
+      "Bash(git -C ../context-nexus log *)",
+      "Bash(git -C ../context-nexus diff *)",
+      "Bash(git -C ../context-nexus show *)",
+      "Bash(graphify *)",
+      "Bash(npm run graph)",
+      "Bash(npm run harness-demo)",
+      "Bash(npm run deprecated)",
+      "Bash(npm run spec:publish)",
+      "Bash(npm run spec:publish *)",
+      "Bash(npm run spec:pull)",
+      "Bash(.specify/scripts/bash/*)",
+      "Bash(bash .specify/scripts/bash/*)",
+      "Bash(sh .specify/scripts/bash/*)",
+      "Bash(curl -s http://localhost:*)"
+    ],
+    "deny": [
+      "Bash(npm run flag *)",
+      "Bash(node scripts/flag.mjs *)",
+      "Edit(test/reference/**)",
+      "Edit(.context/**)",
+      "Edit(src/billing/**)"
+    ],
+    "additionalDirectories": [
+      "../context-nexus"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.mjs\""
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|Grep",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "graphify hook-guard search",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Read|Glob",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "graphify hook-guard read",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

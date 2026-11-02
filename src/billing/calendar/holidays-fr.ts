@@ -1,0 +1,16 @@
+import type { Day } from './day-math.js';
+
+/**
+ * French public holidays (metropolitan France), maintained by Core Billing each December.
+ * Used for due dates (BILL-41), the accounting calendar and sending windows.
+ */
+export const FRENCH_PUBLIC_HOLIDAYS: readonly Day[] = [
+  // 2026
+  '2026-01-01', '2026-04-06', '2026-05-01', '2026-05-08', '2026-05-14', '2026-05-25',
+  '2026-07-14', '2026-08-15', '2026-11-01', '2026-11-11', '2026-12-25',
+  // 2027
+  '2027-01-01', '2027-03-29', '2027-05-01', '2027-05-06', '2027-05-08', '2027-05-17',
+  '2027-07-14', '2027-08-15', '2027-11-01', '2027-11-11', '2027-12-25',
+];
+
+export const isPublicHoliday = (day: Day, holidays: readonly Day[] = FRENCH_PUBLIC_HOLIDAYS): boolean => holidays.includes(day);

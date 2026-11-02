@@ -1,0 +1,402 @@
+[
+  {
+    "id": "inv_0001",
+    "number": "F-2026-0001",
+    "customerId": "C01",
+    "issueDate": "2026-08-01",
+    "dueDate": "2026-08-31",
+    "totalMinor": 120000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0002",
+    "number": "F-2026-0002",
+    "customerId": "C01",
+    "issueDate": "2026-10-01",
+    "dueDate": "2026-10-31",
+    "totalMinor": 45600,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0003",
+    "number": "F-2026-0003",
+    "customerId": "C02",
+    "issueDate": "2026-09-15",
+    "dueDate": "2026-10-15",
+    "totalMinor": 8900,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0004",
+    "number": "F-2026-0004",
+    "customerId": "C02",
+    "issueDate": "2026-10-20",
+    "dueDate": "2026-11-19",
+    "totalMinor": 23400,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0005",
+    "number": "F-2026-0005",
+    "customerId": "C03",
+    "issueDate": "2026-09-01",
+    "dueDate": "2026-10-01",
+    "totalMinor": 250000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0006",
+    "number": "F-2026-0006",
+    "customerId": "C03",
+    "issueDate": "2026-10-05",
+    "dueDate": "2026-11-04",
+    "totalMinor": 99000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0007",
+    "number": "F-2026-0007",
+    "customerId": "C04",
+    "issueDate": "2026-10-10",
+    "dueDate": "2026-11-09",
+    "totalMinor": 15000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0008",
+    "number": "F-2026-0008",
+    "customerId": "C04",
+    "issueDate": "2026-10-25",
+    "dueDate": "2026-11-24",
+    "totalMinor": 30000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0009",
+    "number": "F-2026-0009",
+    "customerId": "C05",
+    "issueDate": "2026-08-20",
+    "dueDate": "2026-09-19",
+    "totalMinor": 480000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0010",
+    "number": "F-2026-0010",
+    "customerId": "C05",
+    "issueDate": "2026-10-15",
+    "dueDate": "2026-11-14",
+    "totalMinor": 72000,
+    "currency": "EUR",
+    "disputed": true
+  },
+  {
+    "id": "inv_0011",
+    "number": "F-2026-0011",
+    "customerId": "C06",
+    "issueDate": "2026-09-25",
+    "dueDate": "2026-10-25",
+    "totalMinor": 186000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0012",
+    "number": "F-2026-0012",
+    "customerId": "C06",
+    "issueDate": "2026-10-18",
+    "dueDate": "2026-11-17",
+    "totalMinor": 54000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0013",
+    "number": "F-2026-0013",
+    "customerId": "C07",
+    "issueDate": "2026-10-03",
+    "dueDate": "2026-11-02",
+    "totalMinor": 31200,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0014",
+    "number": "F-2026-0014",
+    "customerId": "C07",
+    "issueDate": "2026-10-21",
+    "dueDate": "2026-11-20",
+    "totalMinor": 18000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0015",
+    "number": "F-2026-0015",
+    "customerId": "C08",
+    "issueDate": "2026-09-10",
+    "dueDate": "2026-10-10",
+    "totalMinor": 12500,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0016",
+    "number": "F-2026-0016",
+    "customerId": "C08",
+    "issueDate": "2026-10-12",
+    "dueDate": "2026-11-11",
+    "totalMinor": 6400,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0017",
+    "number": "F-2026-0017",
+    "customerId": "C09",
+    "issueDate": "2026-09-28",
+    "dueDate": "2026-10-28",
+    "totalMinor": 87000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0018",
+    "number": "F-2026-0018",
+    "customerId": "C09",
+    "issueDate": "2026-10-30",
+    "dueDate": "2026-11-29",
+    "totalMinor": 41000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0019",
+    "number": "F-2026-0019",
+    "customerId": "C10",
+    "issueDate": "2026-09-05",
+    "dueDate": "2026-10-05",
+    "totalMinor": 330000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0020",
+    "number": "F-2026-0020",
+    "customerId": "C10",
+    "issueDate": "2026-10-14",
+    "dueDate": "2026-11-13",
+    "totalMinor": 66000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0021",
+    "number": "F-2026-0021",
+    "customerId": "C11",
+    "issueDate": "2026-10-01",
+    "dueDate": "2026-10-31",
+    "totalMinor": 9900,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0022",
+    "number": "F-2026-0022",
+    "customerId": "C12",
+    "issueDate": "2026-09-20",
+    "dueDate": "2026-10-20",
+    "totalMinor": 140000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0023",
+    "number": "F-2026-0023",
+    "customerId": "C01",
+    "issueDate": "2026-10-08",
+    "dueDate": "2026-11-07",
+    "totalMinor": 27000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0024",
+    "number": "F-2026-0024",
+    "customerId": "C03",
+    "issueDate": "2026-10-17",
+    "dueDate": "2026-11-16",
+    "totalMinor": 112000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0025",
+    "number": "F-2026-0025",
+    "customerId": "C05",
+    "issueDate": "2026-10-09",
+    "dueDate": "2026-11-08",
+    "totalMinor": 39000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0026",
+    "number": "F-2026-0026",
+    "customerId": "C06",
+    "issueDate": "2026-08-28",
+    "dueDate": "2026-09-27",
+    "totalMinor": 205000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0027",
+    "number": "F-2026-0027",
+    "customerId": "C07",
+    "issueDate": "2026-09-12",
+    "dueDate": "2026-10-12",
+    "totalMinor": 47500,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0028",
+    "number": "F-2026-0028",
+    "customerId": "C08",
+    "issueDate": "2026-10-22",
+    "dueDate": "2026-11-21",
+    "totalMinor": 9800,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0029",
+    "number": "F-2026-0029",
+    "customerId": "C09",
+    "issueDate": "2026-10-02",
+    "dueDate": "2026-11-01",
+    "totalMinor": 58000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0030",
+    "number": "F-2026-0030",
+    "customerId": "C10",
+    "issueDate": "2026-10-24",
+    "dueDate": "2026-11-23",
+    "totalMinor": 150000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0031",
+    "number": "F-2026-0031",
+    "customerId": "C02",
+    "issueDate": "2026-09-30",
+    "dueDate": "2026-10-30",
+    "totalMinor": 17500,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0032",
+    "number": "F-2026-0032",
+    "customerId": "C04",
+    "issueDate": "2026-09-06",
+    "dueDate": "2026-10-06",
+    "totalMinor": 64000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0033",
+    "number": "F-2026-0033",
+    "customerId": "C12",
+    "issueDate": "2026-10-15",
+    "dueDate": "2026-11-14",
+    "totalMinor": 22000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0034",
+    "number": "F-2026-0034",
+    "customerId": "C11",
+    "issueDate": "2026-09-15",
+    "dueDate": "2026-10-15",
+    "totalMinor": 4500,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0035",
+    "number": "F-2026-0035",
+    "customerId": "C05",
+    "issueDate": "2026-07-30",
+    "dueDate": "2026-08-29",
+    "totalMinor": 95000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0036",
+    "number": "F-2026-0036",
+    "customerId": "C09",
+    "issueDate": "2026-10-19",
+    "dueDate": "2026-11-18",
+    "totalMinor": 1200,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0037",
+    "number": "F-2026-0037",
+    "customerId": "C03",
+    "issueDate": "2026-09-22",
+    "dueDate": "2026-10-22",
+    "totalMinor": 73000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0038",
+    "number": "F-2026-0038",
+    "customerId": "C10",
+    "issueDate": "2026-08-15",
+    "dueDate": "2026-09-14",
+    "totalMinor": 260000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0039",
+    "number": "F-2026-0039",
+    "customerId": "C01",
+    "issueDate": "2026-11-01",
+    "dueDate": "2026-12-01",
+    "totalMinor": 34000,
+    "currency": "EUR",
+    "disputed": false
+  },
+  {
+    "id": "inv_0040",
+    "number": "F-2026-0040",
+    "customerId": "C06",
+    "issueDate": "2026-10-27",
+    "dueDate": "2026-11-26",
+    "totalMinor": 88000,
+    "currency": "EUR",
+    "disputed": false
+  }
+]

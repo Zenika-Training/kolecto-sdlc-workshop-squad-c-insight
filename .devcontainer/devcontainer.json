@@ -1,0 +1,28 @@
+{
+  // Ready-to-use environment for a hackathon squad starter (GitHub Codespaces or VS Code Dev Containers).
+  // Node 22, Git, Claude Code, Graphify, and the Context Nexus cloned next to the starter.
+  "name": "AI-PDLC hackathon · squad C · Insight",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "hostRequirements": { "cpus": 2 },
+  "containerEnv": {
+    "SQUAD": "squad-c-insight",
+    "TZ": "Europe/Paris"
+  },
+  "customizations": {
+    "codespaces": {
+      // Lets the Codespace publish to the shared Context Nexus (write access to that repository is required).
+      "repositories": {
+        "Zenika-Training/kolecto-sdlc-workshop-context-nexus": { "permissions": { "contents": "write" } }
+      },
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "extensions": ["anthropic.claude-code"]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "forwardPorts": [3003],
+  "portsAttributes": {
+    "3003": { "label": "Squad C service", "onAutoForward": "silent" }
+  }
+}
