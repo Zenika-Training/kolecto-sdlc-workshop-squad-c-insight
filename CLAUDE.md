@@ -36,6 +36,7 @@ If it is missing or outdated, run `npm run context` (or `/nexus`), then read wha
 - Squad C implements `measurePilot` in `src/domain/measure-pilot.ts`. The route `GET /v1/pilot/kpi?from=…&to=…` is already wired to it.
 - Core Billing (`src/billing/reporting/`) already computes the share paid within N days (`paidWithinRate`) and the average payment delay (`averagePaymentDelay`) for the finance dashboard. Reuse them: the pilot's figures must match finance's (D-07). Find them with the graph.
 - `src/mocks/reminder-plan.ts` mocks squad B's `reminder-events` contract **v0**, and a small pilot log built on it. When squad B publishes v1, align the mock and your input type with the published contract, field for field, and pin that version in your spec and contract.
+- `MISSION.md` (the squad's mission and example prompts per phase) and `CHEATSHEET.md` (commands) are for the humans; you may read them to know which phase they are in.
 - `src/billing/` is Core Billing (ledger, customers, calendar, money, templates, notifications, exports, reporting, and `dunning-v0/`, the manual chasing export this programme will replace). See `src/billing/README.md`.
 - `data/` holds the synthetic pilot dataset (reference day 2026-11-20). Amounts are always integer **cents**.
 

@@ -10,6 +10,8 @@
 2. In the terminal: `claude auth login` with the Claude account you were given.
 3. `claude`, then type **`/welcome`**.
 
+Your mission, phase by phase, with example prompts: **`MISSION.md`**. All commands on one page: **`CHEATSHEET.md`**.
+
 ## The cycle you will run
 
 | Phase | You produce | Gate (`npm run gate -- Gx`, then the gate keeper) |

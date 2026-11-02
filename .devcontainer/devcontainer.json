@@ -14,7 +14,7 @@
       "repositories": {
         "Zenika-Training/kolecto-sdlc-workshop-context-nexus": { "permissions": { "contents": "write" } }
       },
-      "openFiles": ["README.md"]
+      "openFiles": ["MISSION.md", "CHEATSHEET.md"]
     },
     "vscode": {
       "extensions": ["anthropic.claude-code"]

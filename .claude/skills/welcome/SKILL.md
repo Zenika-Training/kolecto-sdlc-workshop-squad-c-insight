@@ -20,4 +20,6 @@ Goal: in under a minute, the squad knows where it is, and the environment is pro
    - the hats: Specification Engineer, Context Engineer, Agentic Workflow Orchestrator, Decision Guarantor (+ Evaluation Engineer for a third person). Ask who wears which, do not assign them.
 3. First step (Discover): copy `../context-nexus/templates/business-intent.md` to `../context-nexus/teams/<squad>/intent/business-intent.md` **only if the humans ask**, and suggest they first list what the brief does not say and ask the Head of Receivables. If the squad has a third person (Evaluation Engineer), give them their own first step: read the reference cases of this slice in `programme/payment-reminders/contracts/reference-cases.md`, explain each in one line, and list the edge cases the cases do not cover.
 
+End by pointing to `MISSION.md` (who does what, and example prompts for each phase: to adapt, not to paste) and `CHEATSHEET.md` (all commands on one page).
+
 At this step, write nothing in `intent/` on your own: you draft when a human asks, and a human signs. Keep the answer short.
